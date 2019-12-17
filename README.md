@@ -6,3 +6,5 @@
 - Translations
 - Structure Back & Front
 - Embed Twig
+- Form Type
+- Validation

@@ -14,3 +14,5 @@ RUN docker-php-ext-enable apcu
 RUN docker-php-ext-install intl opcache
 
 WORKDIR /usr/share/nginx/html
+
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
